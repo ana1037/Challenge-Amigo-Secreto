@@ -1,0 +1,129 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    --color-button-hover: #e55720;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--color-secondary);
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+
+}
+
+.header-banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.input-section {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-bottom: 15px;
+  
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-name {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+.button-add {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 0 25px 25px 0;
+    background-color: var(--color-tertiary);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    font-size: 18px;
+    color: var(--color-text);
+    margin: 5px 0;
+}
+
+.button-draw {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--color-button);
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    
+    
+
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.result-list {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #05DF05;
+}
